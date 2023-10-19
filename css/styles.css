@@ -115,11 +115,7 @@ img {
   padding-top: 188px;
   padding-bottom: 188px;
 }
-/* .hero .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
+
 .hero-title {
   color: #ffffff;
   text-align: center;
@@ -155,7 +151,7 @@ img {
   background-color: #404bbf;
 }
 /* =====FEATURE===== */
-.feature .container {
+.feature {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -275,7 +271,6 @@ img {
 
 .portfolio-item {
   display: block;
-
   width: calc((100%-48px) / 3);
 }
 
