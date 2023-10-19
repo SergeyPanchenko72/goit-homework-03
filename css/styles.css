@@ -68,7 +68,9 @@ img {
   gap: 24px;
   align-items: center;
 }
-
+.page-navigation .logo {
+  margin-right: 76px;
+}
 .menu {
   display: flex;
   gap: 40px;
@@ -76,7 +78,7 @@ img {
 
 .contact-list {
   display: flex;
-  gap: 24px;
+  gap: 40px;
   padding: 24px 0;
 }
 .menu-link {
@@ -110,14 +112,14 @@ img {
 
 .hero {
   background: #2e2f42;
-}
-.hero .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding-top: 188px;
   padding-bottom: 188px;
 }
+/* .hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
 .hero-title {
   color: #ffffff;
   text-align: center;
@@ -125,12 +127,14 @@ img {
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
-  width: 496px;
-
+  max-width: 496px;
   margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-button {
+  display: block;
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
@@ -140,6 +144,11 @@ img {
   cursor: pointer;
   padding: 16px 32px;
   border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -168,7 +177,7 @@ img {
 .feature-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .feature-item {
@@ -192,6 +201,8 @@ img {
 
 .team {
   background: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-title {
   color: #2e2f42;
@@ -201,12 +212,12 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-top: 120px;
+
   margin-bottom: 72px;
 }
 .team-list {
   display: flex;
-  padding-bottom: 120px;
+
   flex-wrap: wrap;
   gap: 24px;
 }
@@ -215,13 +226,14 @@ img {
   display: block;
   background-color: #ffffff;
   max-width: calc((100% - 72px) / 4);
-  padding-bottom: 32px;
+  /* padding-bottom: 32px; */
   border-radius: 0px 0px 4px 4px;
 }
-
-.team-picture {
-  margin-bottom: 32px;
+.team-card-content {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
+
 .team-name {
   color: #2e2f42;
   text-align: center;
@@ -294,9 +306,7 @@ img {
 
 .page-footer {
   background: #2e2f42;
-}
-.page-footer .container {
-  padding-top: 101.5px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -304,7 +314,7 @@ img {
   color: #f4f4fd;
 }
 .page-footer .logo {
-  margin-bottom: 8.5px;
+  margin-bottom: 16px;
 }
 .footer-text {
   color: #f4f4fd;
